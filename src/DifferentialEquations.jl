@@ -21,10 +21,10 @@ using LinearAlgebra
 import DiffEqBase: solve
 @reexport using LinearSolve
 using NonlinearSolve
+import SciMLBase
 
 include("default_solve.jl")
 include("default_arg_parsing.jl")
-include("ode_default_alg.jl")
 include("sde_default_alg.jl")
 include("dae_default_alg.jl")
 include("dde_default_alg.jl")
